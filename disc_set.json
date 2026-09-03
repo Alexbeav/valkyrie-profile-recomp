@@ -1,0 +1,28 @@
+{
+  "disc_count": 2,
+  "verdict": "data-only",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Valkyrie Profile (USA) (Disc 1).cue",
+      "cue_path": "",
+      "serial": "SLUS-01156",
+      "boot_exe": "SLUS_011.56",
+      "entry_pc": "0x80010008",
+      "track_count": 1,
+      "required_disc_fp": "a19abe70993cb076f0e2c691da56cdc43e979aff754fd6e70d98e60f33ab9fc4"
+    },
+    {
+      "index": 2,
+      "cue_name": "Valkyrie Profile (USA) (Disc 2).cue",
+      "cue_path": "",
+      "serial": "SLUS-01179",
+      "boot_exe": "SLUS_011.79",
+      "entry_pc": "0x80010008",
+      "track_count": 1,
+      "required_disc_fp": "9d8b1cf3339f391886be6b9ccfb48568c00bc141c78f78d760c9866d0f9ab563"
+    }
+  ]
+}

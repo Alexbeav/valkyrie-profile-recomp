@@ -1,0 +1,30 @@
+{
+  "cue_path": "",
+  "cue_name": "Valkyrie Profile (USA) (Disc 2).cue",
+  "bin_name": "Valkyrie Profile (USA) (Disc 2).bin",
+  "track_count": 1,
+  "data_track_size": 747352704,
+  "data_track_md5": "19f36bd625e676ea5d74db612d26eb6c",
+  "data_track_sha1": "7cc65766b46273b4ee166269170ecbaa433908fd",
+  "data_track_sha256": "7a85baf95064ceedc90cb886fdaffaabfe0c146f2a97f0cb46ee022ff800cd35",
+  "data_track_crc32": "c2132829",
+  "boot_exe": "SLUS_011.79",
+  "serial": "SLUS-01179",
+  "serial_exe": "SLUS_011.79",
+  "volume_id": "VALKYRIE",
+  "display_name": "Valkyrie Profile",
+  "load_address": "0x80010000",
+  "entry_pc": "0x80010008",
+  "text_size": "0x0001F800",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "9d8b1cf3339f391886be6b9ccfb48568c00bc141c78f78d760c9866d0f9ab563",
+  "boot_exe_sha256": "78ad0f390a1aec6b4528c4115a566336a643b0263c3e3f1f59ceafefb7792358",
+  "seed_count": 313,
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "Disc 2 contains the same boot program as Disc 1.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}

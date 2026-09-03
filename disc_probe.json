@@ -1,0 +1,30 @@
+{
+  "cue_path": "",
+  "cue_name": "Valkyrie Profile (USA) (Disc 1).cue",
+  "bin_name": "Valkyrie Profile (USA) (Disc 1).bin",
+  "track_count": 1,
+  "data_track_size": 730448880,
+  "data_track_md5": "f579cb951587081019f91af9458d305b",
+  "data_track_sha1": "fa13cbde448a47fa87b6c7829df1c5e6215f5f66",
+  "data_track_sha256": "4c988bac4dcdbfafdf2ae710c6fea7b19c004f50ffd675b9c664ab4dda3d2a78",
+  "data_track_crc32": "dd0422d5",
+  "boot_exe": "SLUS_011.56",
+  "serial": "SLUS-01156",
+  "serial_exe": "SLUS_011.56",
+  "volume_id": "VALKYRIE",
+  "display_name": "Valkyrie Profile",
+  "load_address": "0x80010000",
+  "entry_pc": "0x80010008",
+  "text_size": "0x0001F800",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "a19abe70993cb076f0e2c691da56cdc43e979aff754fd6e70d98e60f33ab9fc4",
+  "boot_exe_sha256": "78ad0f390a1aec6b4528c4115a566336a643b0263c3e3f1f59ceafefb7792358",
+  "seed_count": 313,
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
