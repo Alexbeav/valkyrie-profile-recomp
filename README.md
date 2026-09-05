@@ -51,8 +51,7 @@ BIOS/ROM/save plumbing so you are not stuck repeating each game’s wizard by ha
 
 You must own the original game. Disc images under `disc/` are gitignored and
 must never be committed. This title needs both canonical USA discs. The setup
-host records both identities and uses Disc 1 for generation. Runtime disc
-switching is not yet qualified and remains a release gate.
+host records both identities and uses Disc 1 for generation. The corrected Disc 2 load passed an operator test; see docs/DISC2_FIX.md for the tested scope.
 
 Retail BIOS dumps are not redistributed. This title requires a legal
 SCPH-1001 BIOS dump. OpenBIOS is not a qualified route.
