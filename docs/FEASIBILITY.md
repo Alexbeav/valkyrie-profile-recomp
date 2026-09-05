@@ -85,3 +85,6 @@ Linux and macOS packages use native CMake, Ninja, Python, C, and C++ tools.
 Windows keeps the portable toolchain route. This change does not change game
 code or the graduation state. Build-only CI and every exact-package release
 gate must pass before publication.
+
+## September 5 Disc 2 correction
+The standalone repository now prepares v0.1.3 from v0.1.2. Historical topology notes above describe earlier preparation only. The timed-lid trial passed Alex's reported Disc 2 load; full-game completion is not claimed. See [current evidence and follow-up](DISC2_FIX.md).

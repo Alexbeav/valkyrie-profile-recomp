@@ -117,9 +117,6 @@ tl;dr AI writes the code, but I always test it myself before pushing
 </p>
 <!-- /retcomm-readme-raid -->
 
-## v0.1.1 three-platform candidate
+## Disc 2 correction (v0.1.3)
 
-This candidate targets Windows x64, Linux x64, macOS ARM64, and macOS x64.
-These setup packages require your legally owned game disc and a supported
-regional retail BIOS. They remain unpublished until their exact package tests
-and release authorization pass.
+This release fixes the game remaining on Please insert DISC 2 after changing discs. See [test scope and future runtime rebuild](docs/DISC2_FIX.md).
