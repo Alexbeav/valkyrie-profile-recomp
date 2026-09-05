@@ -69,5 +69,6 @@ exec bash "${PACKAGER}" \
   --project-file LICENSE \
   --project-file THIRD_PARTY_NOTICES.md \
   --project-file README.md \
+  --project-file docs/DISC2_FIX.md \
   --project-dir seeds \
   "${EXTRA_PROJECT[@]}"
